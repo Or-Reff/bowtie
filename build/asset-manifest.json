@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec129729.css",
+    "main.js": "/static/js/main.32cf4896.js",
+    "static/js/787.6c8d283e.chunk.js": "/static/js/787.6c8d283e.chunk.js",
+    "static/media/newbowbow.png": "/static/media/newbowbow.57050e465cbc817ad9d1.png",
+    "index.html": "/index.html",
+    "main.ec129729.css.map": "/static/css/main.ec129729.css.map",
+    "main.32cf4896.js.map": "/static/js/main.32cf4896.js.map",
+    "787.6c8d283e.chunk.js.map": "/static/js/787.6c8d283e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec129729.css",
+    "static/js/main.32cf4896.js"
+  ]
+}
