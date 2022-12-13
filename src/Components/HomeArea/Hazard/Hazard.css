@@ -1,3 +1,4 @@
+ 
  .Box {
   display: inline-block;
   margin: 10px;
@@ -12,4 +13,24 @@
     position: relative;
     width:60%;
     top: 8%;
+}
+
+
+
+
+.container {
+  height: calc(100vh - 50px);
+  width: calc(100vh - 100px);
+  padding: 20px;
+}
+
+.draggable {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.uk-input,
+.uk-textarea,
+.uk-checkbox {
+   margin-bottom: 10px;
 }

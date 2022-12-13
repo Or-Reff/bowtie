@@ -1,14 +1,17 @@
-import { TextField } from "@mui/material";
+import { Box, styled, TextField } from "@mui/material";
 import Draggable from "react-draggable";
+import CustomStyledTextField from "../../../Utils/CustomStyledTextField";
 import "./Hazard.css";
+
+
+
 
 function Hazard(): JSX.Element {
     return (
         <Draggable>
-
-            <div className="Hazard Box">
-                <TextField id="outlined-basic" label="מפגע" variant="outlined" />
-            </div>
+            <Box>
+                <CustomStyledTextField classNameText="Box Hazard" labelText="מפגע" nameText="hazard" />
+            </Box>
         </Draggable>
     );
 }

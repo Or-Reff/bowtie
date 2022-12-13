@@ -25,9 +25,11 @@
   border: 1px solid #525252;
   border-radius: 14px;
   transform: rotate(-45deg) !important;
+  margin-right: 1rem;
 }
 
 .top {
-  top: 30%; 
+  right: 0;
+  top: 5%;  
   transform: rotate(45deg);
 }
