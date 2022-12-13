@@ -1,0 +1,21 @@
+.Layout {
+	height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 90% 0%; /* rows height */
+    grid-template-columns: repeat(7, 1fr); /* fr = fraction, 1 unit */
+}
+
+.Layout > header{
+    grid-column: span 7;
+}
+
+.Layout > main {
+    grid-column: span 1;
+    overflow: auto;
+}
+
+.Layout > aside {
+    grid-column: span 3;
+    overflow: auto;
+}

@@ -1,0 +1,33 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+
+  direction: rtl;
+
+  background-image: url(../src/Assets/newbowbow.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+button{
+
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.customButton {
+  display: inline-block;
+  background-color:#70A457;
+  color: #525252;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50px;
+}

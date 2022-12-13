@@ -1,0 +1,44 @@
+.Remove {
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  right: -5px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.SceneBox {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  overflow: hidden;
+}
+
+.Scene {
+    
+}
+
+/*.Scene{
+    width: 40%;
+    height:17vh;
+  }*/
+
+.Add {
+  position: relative;
+  background-color: #c3b569;
+  border-radius: 20px;
+  z-index: 1;
+  border: none;
+ 
+  width: 30px;
+}
+
+.sbg {
+  background-color: #8d97a7;
+
+  display: inline-block;
+}

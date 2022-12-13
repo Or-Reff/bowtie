@@ -1,0 +1,33 @@
+.Event {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 46%; 
+  top: 45%;
+}
+
+.EventBox {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  height: 15vh;
+  background-color: #ddcdb5;
+  color: #525252;
+  font-weight: bold;
+}
+
+.newBox {
+  box-sizing: border-box;
+
+  background: #ddcdb5;
+  mix-blend-mode: normal;
+  border: 1px solid #525252;
+  border-radius: 14px;
+  transform: rotate(-45deg) !important;
+}
+
+.top {
+  top: 30%; 
+  transform: rotate(45deg);
+}
